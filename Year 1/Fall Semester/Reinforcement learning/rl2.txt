@@ -1,0 +1,53 @@
+1 Different states at different times due to taking different actions
+2. Determining which action to take first with the greatest value afterwards
+
+Cumulative reward = R(T) = r_t+1 + r_t+2 + ....
+
+Not a good formula
+
+Modify the formula by adding a discount factor gamma
+If gamma = 0 means they care about immediate rewards
+
+If gamma = 1 means we treat immediate and future rewards the same way
+
+Ways to chose an action to take out of a large number of actions
+
+Exploration vs Exploitation
+
+Exploration - We explore the environment for to determine an action that will lead to the best state
+
+Exploitation - Take the action that proved to be the best
+
+Epsilon-greedy strategy - 1-£
+
+To determine whether to explore or exploit
+
+
+Value-based methods
+
+Tells us how good each state is
+Its the sum of all the rewards that we get from a state s starting with that state
+
+
+Q(s) function
+
+Sum of rewards that we get starting from s and taking action a 
+
+We would like to use the action a that has the highest Q(sea) value
+
+
+Bellman equation
+
+v(s) = E[r_t+1 + y*r_t+2) + y^2 * r_t+3 + y^3 * r_t+4 + ...| st=s]
+
+
+Learning rate
+Max epislon
+Min epsilon
+PPO
+Unity
+Gamma
+Q-learning
+
+
+

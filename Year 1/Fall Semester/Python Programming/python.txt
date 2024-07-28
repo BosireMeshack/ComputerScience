@@ -1,0 +1,9 @@
+13/10/23 Revision
+
+Try except else finally command
+
+
+Try - block lets you test a block of code for errors
+Expect - block lets you handle the error
+Else - lets you execute the code when there is no error
+Finally - lets you execute the code regardless of the result

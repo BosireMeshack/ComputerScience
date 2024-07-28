@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Check</title>
+    <script>
+        // JavaScript enabled
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('js-status').innerHTML = 'JavaScript is enabled!';
+        });
+
+        dyanmicVariable = 10;
+        console.log(dyanmicVariable);
+       
+    </script>
+    
+</head>
+<body>
+    <!-- Fallback content -->
+    <noscript>
+        <p>JavaScript is disabled. Please enable JavaScript to view this content.</p>
+    </noscript>
+    
+    <!-- Content for JavaScript-enabled browsers -->
+    <p id="js-status"></p>
+</body>
+</html>
