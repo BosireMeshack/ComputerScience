@@ -1,0 +1,23 @@
+
+#!/bin/bash
+
+echo "Enter lines of text (type 'end' to finish):"
+
+temp=$(mktemp)
+
+
+while IFS= read -r line
+do
+    if [ "$line" == "end" ]
+     then
+        break
+    fi
+    echo "$line" >> "$temp"
+done
+
+
+echo "Sorted lines:"
+sort "$temp"
+
+rm "$temp"
+

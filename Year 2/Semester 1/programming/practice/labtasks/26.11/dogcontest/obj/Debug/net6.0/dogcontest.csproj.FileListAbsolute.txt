@@ -1,0 +1,15 @@
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/bin/Debug/net6.0/dogcontest
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/bin/Debug/net6.0/dogcontest.deps.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/bin/Debug/net6.0/dogcontest.runtimeconfig.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/bin/Debug/net6.0/dogcontest.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/bin/Debug/net6.0/dogcontest.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/dogcontest.csproj.AssemblyReference.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/dogcontest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/dogcontest.AssemblyInfoInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/dogcontest.AssemblyInfo.cs
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/dogcontest.csproj.CoreCompileInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/dogcontest.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/refint/dogcontest.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/dogcontest.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/dogcontest.genruntimeconfig.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/dogcontest/obj/Debug/net6.0/ref/dogcontest.dll

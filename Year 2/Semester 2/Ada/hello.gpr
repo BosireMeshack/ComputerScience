@@ -1,0 +1,12 @@
+project Hello is
+   for Main use ("hello.adb");
+   for Source_Dirs use ("./");
+   for Object_Dir use "obj";
+   for Exec_Dir use "bin";
+
+   package Linker is
+      for Linker_Options use ("-L/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib", 
+                             "-Wl,-macos_version_min,14.0", 
+                             "-lSystem");
+   end Linker;
+end Hello;

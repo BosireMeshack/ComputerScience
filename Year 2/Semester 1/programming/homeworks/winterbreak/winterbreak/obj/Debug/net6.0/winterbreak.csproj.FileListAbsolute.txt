@@ -1,0 +1,15 @@
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/bin/Debug/net6.0/winterbreak
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/bin/Debug/net6.0/winterbreak.deps.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/bin/Debug/net6.0/winterbreak.runtimeconfig.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/bin/Debug/net6.0/winterbreak.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/bin/Debug/net6.0/winterbreak.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/winterbreak.csproj.AssemblyReference.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/winterbreak.GeneratedMSBuildEditorConfig.editorconfig
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/winterbreak.AssemblyInfoInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/winterbreak.AssemblyInfo.cs
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/winterbreak.csproj.CoreCompileInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/winterbreak.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/refint/winterbreak.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/winterbreak.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/winterbreak.genruntimeconfig.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/winterbreak/obj/Debug/net6.0/ref/winterbreak.dll

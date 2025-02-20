@@ -1,0 +1,15 @@
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/bin/Debug/net8.0/MyConsoleApp
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/bin/Debug/net8.0/MyConsoleApp.deps.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/bin/Debug/net8.0/MyConsoleApp.runtimeconfig.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/bin/Debug/net8.0/MyConsoleApp.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/bin/Debug/net8.0/MyConsoleApp.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/MyConsoleApp.AssemblyInfoInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/MyConsoleApp.AssemblyInfo.cs
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/MyConsoleApp.csproj.CoreCompileInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/MyConsoleApp.sourcelink.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/MyConsoleApp.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/refint/MyConsoleApp.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/MyConsoleApp.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/MyConsoleApp.genruntimeconfig.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/MyConsoleApp/obj/Debug/net8.0/ref/MyConsoleApp.dll

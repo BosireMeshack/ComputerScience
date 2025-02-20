@@ -1,0 +1,9 @@
+
+
+
+sum=0
+do
+sum=`expr $sum + $i`
+
+echo Sum: $sum
+

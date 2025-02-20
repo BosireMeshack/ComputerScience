@@ -1,0 +1,15 @@
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/bin/Debug/net6.0/shipments
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/bin/Debug/net6.0/shipments.deps.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/bin/Debug/net6.0/shipments.runtimeconfig.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/bin/Debug/net6.0/shipments.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/bin/Debug/net6.0/shipments.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/shipments.csproj.AssemblyReference.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/shipments.GeneratedMSBuildEditorConfig.editorconfig
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/shipments.AssemblyInfoInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/shipments.AssemblyInfo.cs
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/shipments.csproj.CoreCompileInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/shipments.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/refint/shipments.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/shipments.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/shipments.genruntimeconfig.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/shipments/shipments/obj/Debug/net6.0/ref/shipments.dll

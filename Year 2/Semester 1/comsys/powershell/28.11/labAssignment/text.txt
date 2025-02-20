@@ -1,0 +1,5 @@
+My name is Powershell
+I am based on Windows
+I was made by Microsoft
+I have alias commands
+I can read parameters

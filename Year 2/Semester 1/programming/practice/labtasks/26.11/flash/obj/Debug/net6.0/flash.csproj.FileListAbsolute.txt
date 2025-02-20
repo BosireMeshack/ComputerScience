@@ -1,0 +1,15 @@
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/bin/Debug/net6.0/flash
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/bin/Debug/net6.0/flash.deps.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/bin/Debug/net6.0/flash.runtimeconfig.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/bin/Debug/net6.0/flash.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/bin/Debug/net6.0/flash.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/flash.csproj.AssemblyReference.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/flash.GeneratedMSBuildEditorConfig.editorconfig
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/flash.AssemblyInfoInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/flash.AssemblyInfo.cs
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/flash.csproj.CoreCompileInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/flash.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/refint/flash.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/flash.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/flash.genruntimeconfig.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/practice/labtasks/26.11/flash/obj/Debug/net6.0/ref/flash.dll

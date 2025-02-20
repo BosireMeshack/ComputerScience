@@ -1,0 +1,17 @@
+[GENERATED OBJECT FILE]
+b__hello.o
+[PROJECT FILES]
+/Users/meshagwe/Documents/Ada/hello.gpr
+20250214194959 e72770b721f3099f5b98724de4155538
+[BOUND OBJECT FILES]
+/Users/meshagwe/Documents/Ada/obj/hello.o
+[GENERATED SOURCE FILES]
+b__hello.ads
+b__hello.adb
+b__hello.ali
+[RESULTING OPTIONS]
+-L/Users/meshagwe/Documents/Ada/obj/
+-L/Users/meshagwe/Documents/Ada/obj/
+-L/Users/meshagwe/.local/share/alire/toolchains/gnat_native_14.2.1_cc5517d6/lib/gcc/aarch64-apple-darwin23.6.0/14.2.0/adalib/
+-static
+/Users/meshagwe/.local/share/alire/toolchains/gnat_native_14.2.1_cc5517d6/lib/gcc/aarch64-apple-darwin23.6.0/14.2.0/adalib/libgnat.a

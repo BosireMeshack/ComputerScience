@@ -1,0 +1,15 @@
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/bin/Debug/net6.0/wbp
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/bin/Debug/net6.0/wbp.deps.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/bin/Debug/net6.0/wbp.runtimeconfig.json
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/bin/Debug/net6.0/wbp.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/bin/Debug/net6.0/wbp.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/wbp.csproj.AssemblyReference.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/wbp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/wbp.AssemblyInfoInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/wbp.AssemblyInfo.cs
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/wbp.csproj.CoreCompileInputs.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/wbp.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/refint/wbp.dll
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/wbp.pdb
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/wbp.genruntimeconfig.cache
+/Users/meshagwe/Documents/Computer Science/Year 2/programming/homeworks/winterbreak/wbp/obj/Debug/net6.0/ref/wbp.dll
