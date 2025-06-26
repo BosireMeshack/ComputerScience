@@ -1,0 +1,99 @@
+
+
+@media print {
+    /* Hiding elements not needed for printing */
+    header, footer, nav, .navbar, .carousel, .search-bar, #moreContent, #showMoreBtn, .btn, button, a[href^="#"], .carousel-control-prev, .carousel-control-next, .carousel-indicators {
+      display: none !important;
+    }
+  
+    
+    body {
+      font-size: 12pt;
+      line-height: 1.5;
+      color: black;
+      background: white;
+      margin: 1cm;
+    }
+  
+   
+    .container,
+    .container-fluid {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  
+   
+    img {
+      max-width: 100%;
+      height: auto;
+      page-break-inside: avoid;
+    }
+  
+    
+    a::after {
+      content: " (" attr(href) ")";
+      font-size: 10pt;
+      color: #666;
+    }
+  
+   
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+
+    main, section, article, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+      page-break-inside: avoid;
+      page-break-after: auto;
+    }
+  
+    /* Hiding all videos */
+    video, iframe {
+      display: none !important;
+    }
+  
+    /* listing adjustments */
+    .row.g-4, .row.mb-4 {
+      margin-bottom: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    /* Listings and cards */
+    .card {
+      border: none;
+      box-shadow: none;
+    }
+  
+    /* Removing background colors */
+    .bg-light, .bg-white {
+      background: transparent !important;
+    }
+  
+    /* Testimonials */
+    #testimonials {
+      page-break-before: always;
+    }
+  
+    /* Reduce padding */
+    .py-5, .my-5, .mt-5 {
+      padding: 0;
+      margin: 0;
+    }
+  
+   
+    h1, h2, h3, h4, h5 {
+      text-align: center;
+      font-weight: bold;
+      color: black;
+    }
+  
+   
+    p, li {
+      font-size: 11pt;
+      margin-bottom: 0.5em;
+    }
+  }
+  

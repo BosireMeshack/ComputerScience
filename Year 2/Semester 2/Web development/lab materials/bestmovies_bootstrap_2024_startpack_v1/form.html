@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Best Movies About The Internet/Web - Form</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+	<div class="container border border-dark border-2">
+		<div class="row">
+			<div class="col-12">
+				<nav id="skip">
+					<h2 class="visually-hidden">Jump to content</h2>
+					<a href="#content" class="visually-hidden-focusable">Jump to content</a>
+
+				</nav>
+			</div> <!-- col -->
+		</div> <!-- row -->
+		<header>
+			<div class="row">
+				<div class="col-12">
+
+					<h1 class="text-center my-3  text-uppercase text-primary">Best Movies About The &lt;Internet/Web&gt;
+					</h1>
+					<nav id="mainmenu">
+						<div class="col-12">
+							<!-- navbar -->
+							<nav class="navbar navbar-expand-lg navbar-light bg-light">
+								<div class="container-fluid">
+									<a class="navbar-brand" href="#">Best Movies...</a>
+									<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+										data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+										aria-label="Toggle navigation">
+										<span class="navbar-toggler-icon"></span>
+									</button>
+									<div class="collapse navbar-collapse" id="navbarNav">
+										<ul class="navbar-nav">
+											<li class="nav-item">
+												<a class="nav-link" href="index.html">Home</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link active" aria-current="page" href="form.html"
+													title="Do you want to send your own favourite movies? Here you can do it.">Form</a>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+							</nav> <!-- navbar -->
+						</div> <!-- col -->
+					</nav>
+				</div> <!-- col-12 -->
+			</div> <!-- row -->
+		</header>
+
+		<main id="content">
+			<div class="row">
+				<div class="col-12">
+					<!-- carousel -->
+					<div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+								class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+								aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="5000">
+								<img src="media/TheSocialNetwork.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Social Network</h5>
+
+								</div>
+							</div>
+							<div class="carousel-item" data-bs-interval="5000">
+								<img src="media/her.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Her</h5>
+
+								</div>
+							</div>
+							<div class="carousel-item" data-bs-interval="5000">
+								<img src="media/deepweb.jpg" class="d-block w-100" alt="...">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>Deep web</h5>
+
+								</div>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div> <!-- carousel -->
+				</div> <!-- col -->
+			</div> <!-- row -->
+
+			<div class="row border-bottom border-primary border-2">
+				<div class="col-12 p-3">
+					<h2>Send your favourite movies</h2>
+					<p>Do you have favourite movie in this topic? If yes, please fill the following form!</p>
+				</div>
+			</div>
+			<form action="mailto:johnsmith@mailinator.com" method="post" enctype="text/plain">
+				<div class="row">
+
+					<div class="col-12 col-lg-6">
+						<fieldset class="border rounded bg-light my-3 p-3">
+							<legend>Datasheet of movie</legend>
+
+							<label for="title"><strong>Title</strong></label><br>
+							<input type="text" name="title" id="title" size="50"><br>
+							<label for="imdb"><strong>IMDb webaddress:</strong></label><br>
+							<input type="url" size="50" name="imdburl" id="imdb" value="http://www.imdb.com/"><br>
+							<label for="story"><strong>Story shortly</strong></label><br>
+							<textarea cols="50" rows="10" name="story" id="story"
+								placeholder="No spoilers, please!"></textarea>
+						</fieldset>
+					</div>
+					<div class="col-12 col-lg-6">
+						<fieldset class="border rounded bg-light my-3 p-3">
+							<legend>Rating</legend>
+							<p>Your rating in a 1 to 5 scale<br>
+								<input type="radio" name="rating" id="v1" value="1">
+								<label for="v1">1 - unwatchable</label>
+								<input type="radio" name="rating" id="v2" value="2">
+								<label for="v2">2</label>
+								<input type="radio" name="rating" id="v3" value="3">
+								<label for="v3">3</label>
+								<input type="radio" name="rating" id="v4" value="4">
+								<label for="v4">4</label>
+								<input type="radio" name="rating" id="v5" value="5">
+								<label for="v5">5 - must watch</label>
+							</p>
+
+						</fieldset>
+
+
+						<fieldset class="border rounded bg-light my-3 p-3">
+							<legend>Personal info</legend>
+							<label for="name"><strong>Name</strong></label><br>
+							<input type="text" name="name" id="name" size="50"><br>
+							<label for="email"><strong>E-mail address</strong></label><br>
+							<input type="email" name="email" id="email" size="50"><br>
+							<input type="checkbox" name="newsletter" id="newsletter" value="yes">
+							<label for="newsletter">I'd like to subscribe to a newsletter</label>
+
+						</fieldset>
+						<fieldset class="border rounded bg-light my-3 p-3">
+							<legend>Send</legend>
+							<input type="submit" value="Submit">
+							<input type="reset" value="Reset">
+						</fieldset>
+					</div>
+				</div>
+			</form>
+			<div class="row">
+				<div class="col-12">
+					<p>These movies are already on my list:</p>
+					<nav>
+						<ol>
+							<li><a href="index.html#socialnetwork">The Social Network</a></li>
+							<li><a href="index.html#her">Her</a></li>
+							<li><a href="index.html#deepweb">Deep Web</a></li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+		</main>
+		<footer class="text-center">
+			<div class="row">
+				<div class="col-12">
+					<address>
+						<p>Author: John Smith (<a
+								href="mailto:johnsmith@mailinator.com)">johnsmith@mailinator.com)</a><br>
+							H-1117 Budapest, Noname street 17</p>
+					</address>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

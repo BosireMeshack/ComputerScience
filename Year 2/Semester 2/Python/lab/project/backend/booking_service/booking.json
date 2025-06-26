@@ -1,0 +1,16 @@
+{
+    "listing_id": "e6f33553",
+    "start_date": "2025-05-15",
+    "end_date": "2025-05-20",
+    "guest_info": {
+      "first_name": "Alice",
+      "last_name": "Smith",
+      "home_country": "USA",
+      "phone_number": "1234567890",
+      "email": "alice.smith@example.com",
+      "id_type": "passport",
+      "id_document": "A12345678",
+      "special_requests": "Late check-in"
+    }
+  }
+  

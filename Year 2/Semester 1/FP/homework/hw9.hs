@@ -1,4 +1,6 @@
 
+
+
 {-
 Given a list of tuples of two Employees, decide which employee out of the two should be fired.
 The way we decide which employee should be fired is the follwing:

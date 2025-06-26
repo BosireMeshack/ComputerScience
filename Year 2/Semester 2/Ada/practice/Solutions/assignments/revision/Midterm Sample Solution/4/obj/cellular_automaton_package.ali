@@ -1,0 +1,94 @@
+V "GNAT Lib v14"
+A -gnatA
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_ENUMERATION_MAPS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U cellular_automaton_package%b  cellular_automaton_package.adb  d62d015c NE OO PK GE
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U cellular_automaton_package%s  cellular_automaton_package.ads  9a159585 BN EE NE OO PK GE
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20241103211802 76789da1 ada%s
+D a-except.ads		20241103211802 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20241103211802 40018c65 ada.io_exceptions%s
+D a-stream.ads		20241103211802 119b8fb3 ada.streams%s
+D a-string.ads		20241103211802 90ac6797 ada.strings%s
+D a-sttebu.ads		20241103211802 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20241103211802 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20241103211802 9eaa38c6 ada.tags%s
+D a-textio.ads		20241103211802 34ef47de ada.text_io%s
+D a-unccon.ads		20241103211802 0e9b276f ada.unchecked_conversion%s
+D cellular_automaton_package.ads  20250324195338 9a159585 cellular_automaton_package%s
+D cellular_automaton_package.adb  20250324195612 78d7d307 cellular_automaton_package%b
+D interfac.ads		20241103211802 9111f9c1 interfaces%s
+D i-cstrea.ads		20241103211802 ffd01b9d interfaces.c_streams%s
+D system.ads		20241103211802 e4f8b086 system%s
+D s-crtl.ads		20241103211802 beb39b9e system.crtl%s
+D s-exctab.ads		20241103211802 91bef6ef system.exception_table%s
+D s-ficobl.ads		20241103211802 dc5161d4 system.file_control_block%s
+D s-parame.ads		20241103211802 3597fc11 system.parameters%s
+D s-putima.ads		20241103211802 17291fe4 system.put_images%s
+D s-secsta.ads		20241103211802 578279f5 system.secondary_stack%s
+D s-soflin.ads		20241103211802 df77073e system.soft_links%s
+D s-stache.ads		20241103211802 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20241103211802 1c9580f6 system.standard_library%s
+D s-stoele.ads		20241103211802 ccded4e8 system.storage_elements%s
+D s-traent.ads		20241103211802 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20241103211802 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20241103211802 d9032363 system.wch_con%s
+G a e
+G c Z s b [cellular_automaton_package standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 2r5
+X 9 a-textio.ads
+58K13*Text_IO 785e16 12|1w10 2r9
+284U14*New_Line 12|33s10 35s7
+515U14*Put 12|30s13 31s13
+X 11 cellular_automaton_package.ads
+3E9 Cell 4r26 4r39 18r14 27r67 30r68 12|30r17
+4V18 Rule{3E9} 4>23 12|21s30
+4*23 C{3E9}
+5k9*Cellular_Automaton_Package 3z9 4z18 27E9 33l5 33e31 12|4b14 46l5 46t31
+7R9*Cellular_Automaton 7d28 7d46 9r28 10r32 11r21 23r57 29c9 31e14 12|7r28
+. 16r32 17r19 26r21 39r57
+7i28 Height{positive} 29r28 30r25
+7i46 Width{positive} 29r46 30r36
+9U14*Run 9=18 9>48 12|7b14 14l8 14t11
+9r18 C{7R9} 12|7b18 10m18 11r14
+9i48 N{natural} 12|7b48 9r19
+10U14*Iterate 10=22 12|10s10 16b14 24l8 24t15
+10r22 C{7R9} 12|16b22 17r41 19r16 20r19 21m13
+11U14*Put 11>18 12|11s10 26b14 36l8 36t11
+11r18 C{7R9} 12|26b18 28r16 29r19 30r28
+15R9*Coordinate 19e14 21r57
+16i7 X{positive} 12|42r31
+17i7 Y{positive} 12|42r42
+18*7 Value{3E9} 12|42r57
+21A9*Coordinate_Array(15R9)<integer> 23r28 12|39r28
+23U14*Init 23>19 23<46 12|39b14 44l8 44t12
+23a19 InCA{21A9} 12|39b19 41r16 42r23 42r34 42r49
+23r46 OutCA{7R9} 12|39b46 42m10
+27A9 Board_M(3E9)<integer><integer> 30r14
+30a7 Board{27A9} 12|19r18 20r21 21m15 21r46 28r18 29r21 30r30 42m16
+X 12 cellular_automaton_package.adb
+9i11 I{integer}
+17r7 Prev_State{11|7R9} 21r35
+19i11 I{integer} 21r21 21r52
+20i14 J{integer} 21r24 21r54
+28i11 I{integer} 30r36
+29i14 J{integer} 30r39
+41i11 I{integer} 42r28 42r39 42r54
+

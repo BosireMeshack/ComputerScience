@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\3\default.gpr
+20250324153936 cf56f9986632563881f76732ab9fc68c
+[BOUND OBJECT FILES]
+C:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\3\obj\adjacent_count.o
+C:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\3\obj\cellular_automaton_package.o
+C:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\3\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\3\obj\
+-LC:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\3\obj\
+-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/adalib/
+-static
+-static-libgcc
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/adalib/libgnat.a
+-Wl,--stack=0x2000000

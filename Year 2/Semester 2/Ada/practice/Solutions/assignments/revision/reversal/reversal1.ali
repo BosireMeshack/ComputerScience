@@ -1,0 +1,28 @@
+V "GNAT Lib v14"
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U reversal1%b		reversal1.adb		80777ade NE OO SU GE
+
+U reversal1%s		reversal1.ads		3715dd4a BN EE NE OO GE
+
+D reversal1.ads		20250322171017 3715dd4a reversal1%s
+D reversal1.adb		20250322171640 b762a794 reversal1%b
+D system.ads		20240808082856 70765b54 system%s
+G a e
+G c Z s b [reversal1 standard 6 11 none]
+X 1 reversal1.ads
+2+9 Elem 4r41 5r36
+3E9 Index 4r22 2|2r7 3r7 7r11 8r10
+4A9 Arr(2+9)<3E9> 6r31 2|1r31
+5U19 Swap 5=24 5=26 2|6s7
+5*24 X{2+9}
+5*26 Y{2+9}
+6u11*Reversal1 6=21 2|1b11 10l5 10t14
+6*21 T{4A9} 2|1b21 2r16 3r16 6m12 6r12 6m18 6r18
+X 2 reversal1.adb
+2*4 I{1|3E9} 5r10 6r14 7m7 7r22
+3*4 J{1|3E9} 5r12 6r20 8m7 8r21
+

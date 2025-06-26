@@ -1,0 +1,109 @@
+V "GNAT Lib v14"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		bd2bff95 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W adjacent_count%s	adjacent_count.adb	adjacent_count.ali
+W cellular_automaton_package%s  cellular_automaton_package.adb  cellular_automaton_package.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20241103211802 76789da1 ada%s
+D a-calend.ads		20241103211802 158a5463 ada.calendar%s
+D a-caldel.ads		20241103211802 9f20b83d ada.calendar.delays%s
+D a-except.ads		20241103211802 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20241103211802 40018c65 ada.io_exceptions%s
+D a-stream.ads		20241103211802 119b8fb3 ada.streams%s
+D a-string.ads		20241103211802 90ac6797 ada.strings%s
+D a-sttebu.ads		20241103211802 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20241103211802 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20241103211802 9eaa38c6 ada.tags%s
+D a-textio.ads		20241103211802 34ef47de ada.text_io%s
+D a-unccon.ads		20241103211802 0e9b276f ada.unchecked_conversion%s
+D adjacent_count.ads	20250324162930 e593dad5 adjacent_count%s
+D adjacent_count.adb	20250324162934 ba6783aa adjacent_count%b
+D cellular_automaton_package.ads  20250324195338 9a159585 cellular_automaton_package%s
+D cellular_automaton_package.adb  20250324195612 78d7d307 cellular_automaton_package%b
+D interfac.ads		20241103211802 9111f9c1 interfaces%s
+D i-cstrea.ads		20241103211802 ffd01b9d interfaces.c_streams%s
+D main.adb		20250324195800 f642f71b main%b
+D system.ads		20241103211802 e4f8b086 system%s
+D s-crtl.ads		20241103211802 beb39b9e system.crtl%s
+D s-exctab.ads		20241103211802 91bef6ef system.exception_table%s
+D s-ficobl.ads		20241103211802 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20241103211802 5e131ce0 system.image_i%s
+D s-imgint.ads		20241103211802 67e4edfb system.img_int%s
+D s-parame.ads		20241103211802 3597fc11 system.parameters%s
+D s-putima.ads		20241103211802 17291fe4 system.put_images%s
+D s-secsta.ads		20241103211802 578279f5 system.secondary_stack%s
+D s-soflin.ads		20241103211802 df77073e system.soft_links%s
+D s-stache.ads		20241103211802 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20241103211802 1c9580f6 system.standard_library%s
+D s-stoele.ads		20241103211802 ccded4e8 system.storage_elements%s
+D s-traent.ads		20241103211802 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20241103211802 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20241103211802 b0fcd073 system.val_spec%s
+D s-vaispe.ads		20241103211802 8280550e system.value_i_spec%s
+D s-vauspe.ads		20241103211802 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20241103211802 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20241103211802 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20241103211802 d9032363 system.wch_con%s
+G a e
+G c Z b b [main standard 4 11 none]
+G r i none [main standard 4 11 none] [adjacent_count standard 7 10 none]
+G r i none [main standard 4 11 none] [cellular_automaton_package standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 19|1r6 2r5 44r10 46r7 49r4 50r4 51r4 52r4
+X 11 a-textio.ads
+58K13*Text_IO 785e16 19|1w10 2r9 44r14 46r11 49r8 50r8 51r8 52r8
+284U14*New_Line 19|46s19 54s4
+515U14*Put 19|44s22 49s16 50s16 51s16 52s16
+X 13 adjacent_count.ads
+7v10*Adjacent_Count 19|1w19 14r35
+X 15 cellular_automaton_package.ads
+5k9*Cellular_Automaton_Package 33e31 19|1w35 30r29
+7R9 Cellular_Automaton 19|36r8[30]
+9U14 Run 19|57s4[30]
+15R9 Coordinate 19|33r9[30] 34r9[30]
+16i7 X{positive} 19|33m24[30] 34m24[30]
+17i7 Y{positive} 19|33m32[30] 34m32[30]
+18e7 Value{19|19E9} 19|33m40[30] 34m40[30]
+21A9 Coordinate_Array(15R9[19|30])<integer> 19|35r11[30]
+23U14 Init 19|56s4[30]
+X 19 main.adb
+4U11*Main 4b11 59l5 59t9
+7A9 Matrix(integer)<integer><integer> 14r68 16r7
+9V13 Is_Even{boolean} 9b13 9>21 12l8 12t15 14r76
+9i21 I{integer} 11r15
+14V13 Even_Adjacents[13|7]{natural} 14|2b10 19|49s36 50s36 51s36 52s36
+16a4 M{7A9} 41r13 42r16 43m10 44r42 49r52 50r52 51r52 52r52
+19E9 Cell 19e23 21r21 21r34 30r56 33r49 34r49
+19n18 O{19E9} 23r14 26r17
+19n21 I{19E9} 24r17
+21V13 Rule{19E9} 21b13 21>18 28l8 28t12 30r62
+21e18 C{19E9} 23r10
+30K12 Cell_Pack[15|5] 31r8
+33r4 C1{15|15R9[30]} 35r41
+34r4 C2{15|15R9[30]} 35r45
+35a4 InCA{15|21A9[30]} 56r9
+36r4 CA{15|7R9[30]} 56m15 57m8 57r8
+41i8 I{integer} 43r13 43r31 44r45
+42i11 J{integer} 43r16 43r35 44r48
+

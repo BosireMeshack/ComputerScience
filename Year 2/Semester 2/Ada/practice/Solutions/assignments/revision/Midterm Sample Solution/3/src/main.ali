@@ -1,0 +1,98 @@
+V "GNAT Lib v14"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U main%b		main.adb		8febc642 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W adjacent_count%s	adjacent_count.adb	adjacent_count.ali
+W cellular_automaton_package%s  cellular_automaton_package.adb  cellular_automaton_package.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20240808082856 76789da1 ada%s
+D a-calend.ads		20240808082856 158a5463 ada.calendar%s
+D a-caldel.ads		20240808082856 9f20b83d ada.calendar.delays%s
+D a-except.ads		20240808082856 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20240808082856 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240808082856 119b8fb3 ada.streams%s
+D a-string.ads		20240808082856 90ac6797 ada.strings%s
+D a-sttebu.ads		20240808082856 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240808082856 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240808082856 9eaa38c6 ada.tags%s
+D a-textio.ads		20240808082856 34ef47de ada.text_io%s
+D a-unccon.ads		20240808082856 0e9b276f ada.unchecked_conversion%s
+D adjacent_count.ads	20250326090000 e593dad5 adjacent_count%s
+D adjacent_count.adb	20250326090000 ba6783aa adjacent_count%b
+D cellular_automaton_package.ads  20250326090000 8ee53bcf cellular_automaton_package%s
+D cellular_automaton_package.adb  20250326154245 2e5ac048 cellular_automaton_package%b
+D interfac.ads		20240808082856 9111f9c1 interfaces%s
+D i-cstrea.ads		20240808082856 ffd01b9d interfaces.c_streams%s
+D main.adb		20250326090000 d0726086 main%b
+D system.ads		20240808082856 70765b54 system%s
+D s-conca3.ads		20240808082856 8a7a19a2 system.concat_3%s
+D s-crtl.ads		20240808082856 beb39b9e system.crtl%s
+D s-exctab.ads		20240808082856 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240808082856 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20240808082856 5e131ce0 system.image_i%s
+D s-imgint.ads		20240808082856 67e4edfb system.img_int%s
+D s-parame.ads		20240808082856 3597fc11 system.parameters%s
+D s-putima.ads		20240808082856 17291fe4 system.put_images%s
+D s-secsta.ads		20240808082856 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240808082856 df77073e system.soft_links%s
+D s-stache.ads		20240808082856 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240808082856 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240808082856 ccded4e8 system.storage_elements%s
+D s-traent.ads		20240808082856 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240808082856 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20240808082856 b0fcd073 system.val_spec%s
+D s-vaispe.ads		20240808082856 8280550e system.value_i_spec%s
+D s-vauspe.ads		20240808082856 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20240808082856 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20240808082856 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20240808082856 d9032363 system.wch_con%s
+G a e
+G c Z b b [main standard 4 11 none]
+G r i none [main standard 4 11 none] [adjacent_count standard 6 10 none]
+G r i none [main standard 4 11 none] [cellular_automaton_package standard 4 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 19|1r6 2r5 41r10 43r7 46r4 47r4 48r4 49r4
+X 11 a-textio.ads
+58K13*Text_IO 785e16 19|1w10 2r9 41r14 43r11 46r8 47r8 48r8 49r8
+284U14*New_Line 19|43s19 51s4
+515U14*Put 19|41s22 46s16 47s16 48s16 49s16
+X 13 adjacent_count.ads
+6v10*Adjacent_Count 19|1w19 14r35
+X 15 cellular_automaton_package.ads
+4k9*Cellular_Automaton_Package 20e31 19|1w35 30r29
+6R9 Cellular_Automaton 19|33r8[30]
+8U14 Run 19|53s4[30]
+X 19 main.adb
+4U11*Main 4b11 55l5 55t9
+7A9 Matrix(integer)<integer><integer> 14r68 16r7
+9V13 Is_Even{boolean} 9b13 9>21 12l8 12t15 14r76
+9i21 I{integer} 11r15
+14V13 Even_Adjacents[13|6]{natural} 14|1b10 19|46s36 47s36 48s36 49s36
+16a4 M{7A9} 38r13 39r16 40m10 41r42 46r52 47r52 48r52 49r52
+19E9 Cell 19e23 21r21 21r34 30r56
+19n18 O{19E9} 23r14 26r17
+19n21 I{19E9} 24r17
+21V13 Rule{19E9} 21b13 21>18 28l8 28t12 30r62
+21e18 C{19E9} 23r10
+30K12 Cell_Pack[15|4] 31r8
+33r4 CA{15|6R9[30]} 53m8 53r8
+38i8 I{integer} 40r13 40r31 41r45
+39i11 J{integer} 40r16 40r35 41r48
+

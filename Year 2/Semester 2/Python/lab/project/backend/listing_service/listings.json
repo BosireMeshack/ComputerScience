@@ -1,0 +1,239 @@
+[
+  {
+    "id": "1",
+    "title": "Waiyaki Way Gardens Amazing Homes",
+    "location": "Waiyaki Way",
+    "price_per_night": 2000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "parking": true,
+    "image": "/static/images/waiyakiway/waiyakiwayairbnb.jpeg",
+    "gallery": [
+      "/static/images/waiyakiway/waiyakiway2.jpeg",
+      "/static/images/waiyakiway/waiyakiway4.jpeg"
+    ],
+    "reviews": 36,
+    "features": [
+      "High Speed Wi-Fi",
+      "Netflix",
+      "Kitchenette",
+      "Air Conditioning",
+      "Workspace",
+      "Free Parking",
+      "Cozy Bedroom",
+      "Hot Shower",
+      "Fully Fitted Gym",
+      "24-Hour backup generator"
+    ],
+    "mapLink": "https://www.google.com/maps?q=waiyaki+way+nairobi",
+    "video": "/static/videos/waiyakiway.mp4"
+  },
+  {
+    "id": "2",
+    "title": "Kamakis Highway Homes",
+    "location": "Kamakis",
+    "price_per_night": 2500,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "parking": true,
+    "image": "/static/images/kamakis/kamakis1.jpeg",
+    "gallery": [
+      "/static/images/kamakis/kamakis2.jpeg",
+      "/static/images/kamakis/kamakis4.jpeg"
+    ],
+    "reviews": 28,
+    "features": [
+      "High Speed Wi-Fi",
+      "Netflix",
+      "Kitchenette",
+      "Air Conditioning",
+      "Workspace",
+      "Free Parking",
+      "Cozy Bedroom",
+      "Hot Shower",
+      "Fully Fitted Gym",
+      "24-Hour backup generator"
+    ],
+    "mapLink": "https://www.google.com/maps?q=kamakis+kenya",
+    "video": ""
+  },
+  {
+    "id": "3",
+    "title": "Winchester Gardens Amazing Homes",
+    "location": "Westlands",
+    "price_per_night": 6000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "parking": true,
+    "image": "/static/images/westlands/winchester1.jpeg",
+    "gallery": [
+      "/static/images/westlands/winchester2.jpeg",
+      "/static/images/westlands/winchester3.png"
+    ],
+    "reviews": 42,
+    "features": [
+      "High Speed Wi-Fi",
+      "Netflix",
+      "Kitchenette",
+      "Air Conditioning",
+      "Workspace",
+      "Free Parking",
+      "Cozy Bedroom",
+      "Hot Shower",
+      "Fully Fitted Gym",
+      "24-Hour backup generator"
+    ],
+    "mapLink": "https://www.google.com/maps?q=winchester+gardens+westlands",
+    "video": "/static/videos/winchester video tour.mp4"
+  },
+  {
+    "id": "4",
+    "title": "Thika Road Homes",
+    "location": "Roysambu",
+    "price_per_night": 3000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "parking": true,
+    "image": "/static/images/thikaroad/thikaroad1.png",
+    "gallery": [
+      "/static/images/thikaroad/thikaroad2.jpeg",
+      "/static/images/thikaroad/thikaroad3.jpeg"
+    ],
+    "reviews": 42,
+    "features": [
+      "High Speed Wi-Fi",
+      "Netflix",
+      "Kitchenette",
+      "Air Conditioning",
+      "Workspace",
+      "Free Parking",
+      "Cozy Bedroom",
+      "Hot Shower",
+      "Fully Fitted Gym",
+      "24-Hour backup generator"
+    ],
+    "mapLink": "https://www.google.com/maps?q=thika+road+roysambu",
+    "video": "/static/videos/thika_tour.mp4"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Rackozi Road Homes",
+    "location": "Budapest",
+    "price_per_night": 33000,
+    "bedrooms": 3,
+    "bathrooms": 1,
+    "parking": true,
+    "image": "/static/images/thikaroad/thikaroad1.png",
+    "gallery": [
+      "/static/images/thikaroad/thikaroad2.jpeg",
+      "/static/images/thikaroad/thikaroad3.jpeg"
+    ],
+    "reviews": 42,
+    "features": [
+      "High Speed Wi-Fi",
+      "Netflix",
+      "Kitchenette",
+      "Air Conditioning",
+      "Workspace",
+      "Free Parking",
+      "Cozy Bedroom",
+      "Hot Shower",
+      "Fully Fitted Gym",
+      "24-Hour backup generator"
+    ],
+    "mapLink": "https://www.google.com/maps?q=thika+road+roysambu",
+    "video": "/static/videos/thika_tour.mp4"
+
+  },
+  {
+    "id": "101",
+    "title": "Pest Central Apartments",
+    "location": "Budapest",
+    "price_per_night": 28000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "parking": true,
+    "image": "/static/images/pestcentral/pest1.png",
+    "gallery": [
+      "/static/images/pestcentral/pest2.jpeg",
+      "/static/images/pestcentral/pest3.jpeg"
+    ],
+    "reviews": 58,
+    "features": [
+      "High Speed Wi-Fi",
+      "Netflix",
+      "Kitchenette",
+      "Air Conditioning",
+      "Workspace",
+      "Balcony View",
+      "Hot Shower",
+      "Modern Interior",
+      "Smart TV",
+      "Elevator Access"
+    ],
+    "mapLink": "https://www.google.com/maps?q=budapest+pest+city+center",
+    "video": "/static/videos/pest_tour.mp4"
+  }
+,
+{
+  "id": "102",
+  "title": "Danube Riverside Residence",
+  "location": "Budapest",
+  "price_per_night": 45000,
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "parking": true,
+  "image": "/static/images/danube/danube1.png",
+  "gallery": [
+    "/static/images/danube/danube2.jpeg",
+    "/static/images/danube/danube3.jpeg"
+  ],
+  "reviews": 74,
+  "features": [
+    "High Speed Wi-Fi",
+    "Netflix",
+    "Washer & Dryer",
+    "River View Balcony",
+    "Fully Equipped Kitchen",
+    "Air Conditioning",
+    "Hot Shower",
+    "24-Hour Security",
+    "Free Parking",
+    "Fireplace"
+  ],
+  "mapLink": "https://www.google.com/maps?q=danube+promenade+budapest",
+  "video": "/static/videos/danube_residence.mp4"
+}
+,
+{
+  "id": "103",
+  "title": "Debrecen Garden Flats",
+  "location": "Debrecen",
+  "price_per_night": 19000,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "parking": false,
+  "image": "/static/images/debrecen/deb1.png",
+  "gallery": [
+    "/static/images/debrecen/deb2.jpeg",
+    "/static/images/debrecen/deb3.jpeg"
+  ],
+  "reviews": 36,
+  "features": [
+    "Wi-Fi",
+    "Basic Kitchen",
+    "Air Conditioning",
+    "Private Patio",
+    "Cozy Interior",
+    "Self Check-in",
+    "Local Guidebook",
+    "Hot Shower",
+    "Green Surroundings",
+    "Pet Friendly"
+  ],
+  "mapLink": "https://www.google.com/maps?q=debrecen+city+centre",
+  "video": "/static/videos/debrecen_garden.mp4"
+}
+
+]

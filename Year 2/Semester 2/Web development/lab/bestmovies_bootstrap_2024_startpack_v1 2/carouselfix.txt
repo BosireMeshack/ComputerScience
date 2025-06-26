@@ -1,0 +1,9 @@
+<style>
+			/* carousel fix for cropping the images */
+			 .carousel-item img {  
+			  object-fit: cover;
+			  object-position: center;
+			  overflow: hidden;
+			  height:30vh;
+			}
+			</style>

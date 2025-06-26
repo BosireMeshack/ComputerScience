@@ -1,0 +1,37 @@
+
+
+services:
+  user_service:
+    build: ./user_service
+    container_name: user_service
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./user_service/users.json:/app/users.json
+    networks:
+      booking_network: {}
+
+  listing_service:
+    build: ./listing_service
+    container_name: listing_service
+    ports:
+      - "5002:5000"
+    volumes:
+      - ./listing_service/listings.json:/app/listings.json
+    networks:
+      booking_network: {}
+
+  booking_service:
+    build: ./booking_service
+    container_name: booking_service
+    ports:
+      - "8003:8003"
+    depends_on:
+      - user_service
+      - listing_service
+    networks:
+      booking_network: {}
+
+networks:
+  booking_network:
+    driver: bridge

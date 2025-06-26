@@ -1,0 +1,54 @@
+V "GNAT Lib v14"
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U database%b		database.adb		2b405b8e NE OO PK GE
+
+U database%s		database.ads		c5e1391e BN EE NE OO PK GE
+
+D database.ads		20250322211946 c5e1391e database%s
+D database.adb		20250322212445 eea16290 database%b
+D system.ads		20240808082856 70765b54 system%s
+G a e
+G c Z s b [database standard 6 9 none]
+X 1 database.ads
+2+9 Elem 4r40 9r49 10r57 11r63 16r43 2|3r46 15r60 34r66
+3+9 Key 4r32 10r45 11r52 12r53 2|15r48 34r55 53r56
+4V18 Condition{boolean} 4>29 4>37 2|20s16 38s13 57s13
+4*29 K{3+9}
+4*37 E{2+9}
+6k9*Database 2z9 3z9 4z18 16E9 24l5 24e13 2|1b14 76l5 76t13
+8R9*Database 8d18 9r36 10r29 11r36 12r37 17c9 21e14 2|3r33 15r32 34r39 53r40
+8i18 Max{natural} 17r18 18r24
+9U14*InsertElem 9=25 9>46 9<55 2|3b11 13l11 13t21
+9r25 DB{8R9} 2|3b22 6r10 6r21 7m10 7r22 8m10 8r21
+9*46 E{2+9} 2|3b43 7r34
+9b55 Success{boolean} 2|3b52 9m10 11m10
+10U14*GetElem 10>22 10>39 10<50 10<63 2|15b17 32l11 32t18
+10r22 DB{8R9} 2|15b25 19r22 20r29 27r18
+10*39 K{3+9} 2|15b42 20r26
+10*50 E{2+9} 2|15b53 27m13
+10b63 Success{boolean} 2|15b66 26m13 29m13
+11U14*UpdateElem 11=25 11>46 11>57 11<69 2|34b17 51l11 51t21
+11r25 DB{8R9} 2|34b28 37r24 38r26 45m10
+11*46 K{3+9} 2|34b49 38r23
+11*57 E{2+9} 2|34b60 45r32
+11b69 Success{boolean} 2|34b72 46m10 48m10
+12U14*DeleteElem 12=26 12>47 12<58 2|53b17 73l11 73t21
+12r26 DB{8R9} 2|53b29 56r25 57r26 65r28 66m13 66r31 68m10 68r21
+12*47 K{3+9} 2|53b50 57r23
+12b58 Success{boolean} 2|53b61 69m10 71m10
+16A9 Arr(2+9)<integer> 18r17
+18a7 Elements{16A9} 2|6r24 7m13 20r32 27r21 38r29 45m13 57r29 66m16 66r34
+19i7 Size{natural} 2|6r13 7r25 8m13 8r24 19r25 37r27 56r28 65r31 68m13 68r24
+X 2 database.adb
+17i7 Found{integer} 21m16 25r13 27r30
+19i14 I{integer} 20r41 21r23
+35i7 Found{integer} 39m13 44r10 45r22
+37i14 I{integer} 38r38 39r22
+54i7 Found{integer} 58m13 63r10 65r19
+56i15 I{integer} 57r38 58r22
+65i14 J{integer} 66r25 66r43
+

@@ -20,3 +20,5 @@ elif op == "*":
 elif op == "/":
     print("Quotient = ", a/b)
 
+print(2 ** 2 ** 3)
+

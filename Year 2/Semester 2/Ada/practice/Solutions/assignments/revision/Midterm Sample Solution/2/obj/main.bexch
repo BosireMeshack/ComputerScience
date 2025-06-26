@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\2\default.gpr
+20250324192540 9fb6252dbf0995ee65dba07f2f50b798
+[BOUND OBJECT FILES]
+C:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\2\obj\adjacent_count.o
+C:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\2\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\2\obj\
+-LC:\Users\rendr\OneDrive\Elte\ADA Demonstrator\Midterm Consultation\2\obj\
+-LC:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/adalib/
+-static
+-static-libgcc
+C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/adalib/libgnat.a
+-Wl,--stack=0x2000000

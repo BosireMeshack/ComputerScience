@@ -1,3 +1,4 @@
+
 import Data.Char (toUpper, isAlpha)
 --function which converts a character to upper case 'a' -> 'A'
 {-

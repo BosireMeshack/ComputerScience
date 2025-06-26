@@ -1,0 +1,108 @@
+V "GNAT Lib v14"
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U matrix_pack%b		matrix_pack.adb		6039a2ba NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U matrix_pack%s		matrix_pack.ads		0bdd3c70 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20240808082856 76789da1 ada%s
+D a-except.ads		20240808082856 e7970cd9 ada.exceptions%s
+D a-inteio.ads		20240808082856 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20240808082856 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240808082856 119b8fb3 ada.streams%s
+D a-string.ads		20240808082856 90ac6797 ada.strings%s
+D a-sttebu.ads		20240808082856 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240808082856 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240808082856 9eaa38c6 ada.tags%s
+D a-textio.ads		20240808082856 34ef47de ada.text_io%s
+D a-tiinio.ads		20240808082856 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20240808082856 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240808082856 9111f9c1 interfaces%s
+D i-cstrea.ads		20240808082856 ffd01b9d interfaces.c_streams%s
+D matrix_pack.ads	20250228222710 3f327bae matrix_pack%s
+D matrix_pack.adb	20250228222654 a94050b0 matrix_pack%b
+D system.ads		20240808082856 70765b54 system%s
+D s-conca2.ads		20240808082856 b5fb73f7 system.concat_2%s
+D s-crtl.ads		20240808082856 beb39b9e system.crtl%s
+D s-exctab.ads		20240808082856 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240808082856 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20240808082856 5e131ce0 system.image_i%s
+D s-imgint.ads		20240808082856 67e4edfb system.img_int%s
+D s-parame.ads		20240808082856 3597fc11 system.parameters%s
+D s-putima.ads		20240808082856 17291fe4 system.put_images%s
+D s-secsta.ads		20240808082856 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240808082856 df77073e system.soft_links%s
+D s-stache.ads		20240808082856 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240808082856 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240808082856 ccded4e8 system.storage_elements%s
+D s-traent.ads		20240808082856 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240808082856 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20240808082856 b0fcd073 system.val_spec%s
+D s-vaispe.ads		20240808082856 8280550e system.value_i_spec%s
+D s-vauspe.ads		20240808082856 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20240808082856 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20240808082856 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20240808082856 d9032363 system.wch_con%s
+G a e
+G c Z s b [transpose matrix_pack 11 13 none]
+G c Z s b [determinant matrix_pack 12 13 none]
+G c Z s b [print_matrix matrix_pack 13 14 none]
+G c Z s s [matrixIP matrix_pack 8 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 2r5 16|1r6
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 16|1w10
+X 10 a-textio.ads
+58K13*Text_IO 785e16 15|1w10 2r9
+284U14*New_Line 16|61s10
+515U14*Put 16|59s13
+X 15 matrix_pack.ads
+4K9*Matrix_Pack 16l5 16e16 16|2b14 80l5 80t16
+6I9*Index<integer> 8r25 8r41 16|17r43 19r17
+7I9*Elem<integer> 8r60 12r43 16|16r44 36r13 47r26 59r17
+8A9*Matrix(7I9)<6I9><6I9> 11r27 11r42 12r28 13r33 16|5r27 5r42 6r15 16r29
+. 17r25 17r57 18r19 55r33
+11V13*Transpose{8A9} 11>23 16|5b13 14l8 14t17
+11a23 A{8A9} 16|5b23 6r22 6r34 6r45 6r57 8r16 8r28 9r19 9r31 10r28
+12V13*Determinant{7I9} 12>25 16|16b14 47s58 52l8 52t19
+12a25 A{8A9} 16|16b26 39r10 39r25 43r10 44r17 44r19 44r31 44r45 44r47 44r63
+. 44r81 44r83 44r95 44r113 44r115 44r131 46r19 47r39 47r41 47r76 47r79
+13U14*Print_Matrix 13>27 16|55b14 63l8 63t20
+13a27 M{8A9} 16|55b27 57r16 57r28 58r19 58r31 59r28
+X 16 matrix_pack.adb
+6a7 Trans{15|8A9} 10m13 13r14
+8i11 I<integer> 10r22 10r30
+9i14 J<integer> 10r19 10r33
+17V16 Minor{15|8A9} 17b16 17>22 17>33 17>38 34l11 34t16 47s70
+17a22 M{15|8A9} 18r29 18r47 21r19 24r25 26r38
+17i33 Row{15|6I9} 22r21
+17i38 Col{15|6I9} 25r27
+18a10 Result{15|8A9} 26m22 33r17
+19i10 R{15|6I9} 26r29 30m16 30r21
+19i13 C{15|6I9} 23m16 26r32 27m22 27r27
+21i14 I<integer> 22r16 26r40
+24i20 J<integer> 25r22 26r43
+36i7 Det{15|7I9} 47m13 47r20 50r17
+37i7 Sign{integer} 47r31 48m13 48r22
+46i14 J<integer> 47r53 47r91
+57i11 I<integer> 59r30
+58i14 J<integer> 59r33
+

@@ -1,0 +1,63 @@
+V "GNAT Lib v14"
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U map%b			map.adb			a0bdbf63 NE OO SU GE
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+U map%s			map.ads			8e5cd3a8 BN EE NE OO GE
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20240808082856 76789da1 ada%s
+D a-except.ads		20240808082856 e7970cd9 ada.exceptions%s
+D a-ioexce.ads		20240808082856 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240808082856 119b8fb3 ada.streams%s
+D a-string.ads		20240808082856 90ac6797 ada.strings%s
+D a-sttebu.ads		20240808082856 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240808082856 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240808082856 9eaa38c6 ada.tags%s
+D a-textio.ads		20240808082856 34ef47de ada.text_io%s
+D a-unccon.ads		20240808082856 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240808082856 9111f9c1 interfaces%s
+D i-cstrea.ads		20240808082856 ffd01b9d interfaces.c_streams%s
+D map.ads		20250322091833 bab39476 map%s
+D map.adb		20250322092303 1a0e2b15 map%b
+D system.ads		20240808082856 70765b54 system%s
+D s-crtl.ads		20240808082856 beb39b9e system.crtl%s
+D s-exctab.ads		20240808082856 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240808082856 dc5161d4 system.file_control_block%s
+D s-parame.ads		20240808082856 3597fc11 system.parameters%s
+D s-putima.ads		20240808082856 17291fe4 system.put_images%s
+D s-secsta.ads		20240808082856 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240808082856 df77073e system.soft_links%s
+D s-stache.ads		20240808082856 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240808082856 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240808082856 ccded4e8 system.storage_elements%s
+D s-traent.ads		20240808082856 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240808082856 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240808082856 d9032363 system.wch_con%s
+G a e
+G c Z s b [map standard 13 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r5
+X 9 a-textio.ads
+58K13*Text_IO 785e16 13|1w10 2r9
+X 13 map.ads
+6+9 A 10r43 12r24
+7+9 B 11r43 12r34
+9E9 Index 10r24 11r24
+10A9 Arr_A(6+9)<9E9> 13r21 14|1r18
+11A9 Arr_B(7+9)<9E9> 13r35 14|1r32 2r7
+12V18 Op{7+9} 12>21 14|5s10
+12*21 X{6+9}
+13v13*map 13>17 14|1b10 9l5 9t8
+13*17 XA{10A9} 14|1b14 2r13 4r13 5r13
+X 14 map.adb
+2*4 Y{13|11A9} 5m4 6r11
+4e8 I 5r6 5r16
+

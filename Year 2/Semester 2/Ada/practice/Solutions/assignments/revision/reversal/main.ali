@@ -1,0 +1,82 @@
+V "GNAT Lib v14"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U main%b		main.adb		e017ea36 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W reversal%s		reversal.adb		reversal.ali
+W reversal1%s		reversal1.adb		reversal1.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20240808082856 76789da1 ada%s
+D a-except.ads		20240808082856 e7970cd9 ada.exceptions%s
+D a-inteio.ads		20240808082856 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20240808082856 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240808082856 119b8fb3 ada.streams%s
+D a-string.ads		20240808082856 90ac6797 ada.strings%s
+D a-sttebu.ads		20240808082856 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240808082856 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240808082856 9eaa38c6 ada.tags%s
+D a-textio.ads		20240808082856 34ef47de ada.text_io%s
+D a-tiinio.ads		20240808082856 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20240808082856 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20240808082856 9111f9c1 interfaces%s
+D i-cstrea.ads		20240808082856 ffd01b9d interfaces.c_streams%s
+D main.adb		20250322170914 e1acc2ea main%b
+D reversal.ads		20250322165241 f40a3bec reversal%s
+D reversal.adb		20250322162913 77dd6353 reversal%b
+D reversal1.ads		20250322171017 3715dd4a reversal1%s
+D reversal1.adb		20250322171640 b762a794 reversal1%b
+D system.ads		20240808082856 70765b54 system%s
+D s-crtl.ads		20240808082856 beb39b9e system.crtl%s
+D s-exctab.ads		20240808082856 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240808082856 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20240808082856 5e131ce0 system.image_i%s
+D s-imgint.ads		20240808082856 67e4edfb system.img_int%s
+D s-parame.ads		20240808082856 3597fc11 system.parameters%s
+D s-putima.ads		20240808082856 17291fe4 system.put_images%s
+D s-secsta.ads		20240808082856 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240808082856 df77073e system.soft_links%s
+D s-stache.ads		20240808082856 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240808082856 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240808082856 ccded4e8 system.storage_elements%s
+D s-traent.ads		20240808082856 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240808082856 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20240808082856 b0fcd073 system.val_spec%s
+D s-vaispe.ads		20240808082856 8280550e system.value_i_spec%s
+D s-vauspe.ads		20240808082856 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20240808082856 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20240808082856 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20240808082856 d9032363 system.wch_con%s
+G a e
+G c Z b b [main standard 6 11 none]
+G r i none [main standard 6 11 none] [reversal1 standard 6 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 2r6 3r5 4r5
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 15|2w10 3r9
+X 10 a-textio.ads
+58K13*Text_IO 785e16 15|1w10 4r9
+565U14*Put_Line 15|24s7
+X 15 main.adb
+6U11*Main 6b11 27l5 27t9
+8A9 Arr1(integer)<integer> 9r7 20r57
+9a4 T{8A9} 22m12 22r12 23r13 24r31
+11U14 Swap 11b14 11=19 11=21 16l8 16t12 20r63
+11i19 X{integer} 12r20 14m7
+11i21 Y{integer} 14r10 15m7
+12i4 Temp{integer} 15r10
+20U14 My_Rev1[18|6] 22s4 19|1b11
+23i8 I{integer} 24r33
+X 16 reversal.ads
+5u11*Reversal 15|1w19
+X 18 reversal1.ads
+6u11*Reversal1 15|1w29 20r29
+

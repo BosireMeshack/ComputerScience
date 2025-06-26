@@ -1,0 +1,39 @@
+V "GNAT Lib v14"
+A -gnatA
+A -mtune=generic
+A -march=nocona
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U adjacent_count%b	adjacent_count.adb	5ff4597f NE OO SU GE
+
+U adjacent_count%s	adjacent_count.ads	e593dad5 BN EE NE OO GE
+
+D adjacent_count.ads	20250324162930 e593dad5 adjacent_count%s
+D adjacent_count.adb	20250324162934 ba6783aa adjacent_count%b
+D system.ads		20241103211802 e4f8b086 system%s
+G a e
+G c Z s b [adjacent_count standard 7 10 none]
+X 1 adjacent_count.ads
+3+9 Item 5r60 6r31
+4E9 Index 5r25 5r41 7r42 2|2r41 3r12 4r11 5r10 6r10 12r17 18r17 24r15 30r15
+5A9 Matrix(3+9)<4E9><4E9> 7r28 2|2r28
+6V18 Predicate{boolean} 6>28 2|35s41
+6*28 I{3+9}
+7v10*Adjacent_Count 7>25 7>36 7>39 2|2b10 41l5 41t19
+7*25 M{5A9} 2|2b25 9r11 10r17 15r11 16r17 21r11 22r15 27r11 28r15 35r51
+7*36 X{4E9} 2|2b36 9r7 12r28 21r7 24r26 35r23
+7*39 Y{4E9} 2|2b38 15r7 18r28 27r7 30r26 35r33
+X 2 adjacent_count.adb
+3*4 StartX{1|4E9} 10m7 12m7 33r13
+4*4 StartY{1|4E9} 16m7 18m7 34r16
+5*4 EndX{1|4E9} 22m7 24m7 33r21
+6*4 EndY{1|4E9} 28m7 30m7 34r24
+7i4 Count{natural} 36m13 36r22 40r11
+33e8 I 35r19 35r53
+34e11 J 35r29 35r55
+

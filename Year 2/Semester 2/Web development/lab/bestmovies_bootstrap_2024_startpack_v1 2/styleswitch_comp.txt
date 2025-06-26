@@ -1,0 +1,7 @@
+<nav id="styleswitch">
+			<label for="styleSwitcher">Choose a style: </label>
+			<select id="styleSwitcher">
+				<option value="normal">Normal</option>
+				<option value="large">Larger text</option>
+			</select>
+</nav>

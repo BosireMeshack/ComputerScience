@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEST MOVIES ABOUT THE <INTERNET/WEB></title>
+    <link rel="stylesheet" href="css/base.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BEST MOVIES ABOUT THE &lt; INTERNET/WEB &gt;</h1>
+      <nav id="mainmenu">HomePage | <a href="form.html">Form</a></nav>
+      <div id="introduction">
+        <article>
+          <h2>Introduction</h2>
+          <p>
+            <q>
+              Although for some people cinema means something superficial and
+              glamorous, it is something else. <br />
+              I think it is the mirror of the world.
+            </q>
+            <br />
+            Jeanne Moreau
+          </p>
+          <p>
+            I love movies about the Internet. As someone who has grown up just
+            as much on the web as off it, I feel as if it’s my virtual home, and
+            inherently connect to films with social networks or hacking or viral
+            media as major plot points perhaps more than films about any other
+            subject.These movies thematically explore different aspects of the
+            web, revealing both the positive and negative affects of living in
+            such a connected world.
+          </p>
+          <p>
+            <strong>Please be aware that </strong> my list is
+            <em>strongly subjective</em>
+          </p>
+        </article>
+        <nav id="pagemenu">
+          <ol>
+            <li><a href="#movie1">The Social Network</a></li>
+            <li><a href="#movie2">Her</a></li>
+            <li><a href="#movie3">Deep Web</a></li>
+          </ol>
+        </nav>
+      </div>
+      <!-- introduction -->
+    </header>
+
+    <main>
+      <hr />
+      <article>
+        <h2 id="movie1">The Social Network</h2>
+
+        <aside>
+          <table>
+            <caption>
+              <b>Movie datasheet</b>
+            </caption>
+            <details>
+              <summary>Help</summary>
+              <p>
+                In this table you'll find the following rows: Release Date,
+                Title, IMDb's rating
+              </p>
+            </details>
+            <tr>
+              <th scope="row">Release Date</th>
+              <td><time datetime="2010-10-01">October 1, 2010</time></td>
+            </tr>
+            <tr>
+              <th scope="row">Title</th>
+              <td>The Social Network</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <abbr title="Internet Movie Database">IMDb</abbr>'s rating
+              </th>
+              <td>7.7/10</td>
+            </tr>
+          </table>
+        </aside>
+        <p>
+          Harvard student <b>Mark Zuckerberg</b> creates the
+          <b>social networking </b> site that would become known as
+          <b>Facebook</b>, but is later sued by two brothers who claimed he
+          stole their idea, and the co-founder who was later squeezed out of the
+          business.
+        </p>
+        <p>
+          <i
+            >The Social Network" is a great film not because of its dazzling
+            style or visual cleverness, but because it is splendidly well-made.
+            Despite the baffling complications of computer programming, web
+            strategy and big finance, Aaron Sorkin's screenplay makes it all
+            clear, and we don't follow the story so much as get dragged along
+            behind it.</i
+          >
+        </p>
+        <figure>
+          <img
+            src="image.png"
+            alt="Photo from the Social Network movie"
+            srcset=""
+          />
+          <figcaption>Photo from the Social Network movie</figcaption>
+        </figure>
+        <section>
+          <h3>Source codes in the movie</h3>
+          <figure>
+            <pre>
+            <code>
+      #!/usr/bin/perl
+      $wget = "wget -q0- http://leverett.harvard.edu/facebook/compactshow.php --post-data='action=Search'";
+
+      print "$wget\n";
+      $page = ` $wget`;
+      while ($page =~ m/compactshow\.php\?student_id=([0-9]+)/g) {
+      	$id=$1
+      	$wget = "wget -q0- http://leverett.harvard.edu/facebook/compactshow.php?student_id=$id";
+      	print "$wget\n";
+     }
+
+
+            </code>
+        </pre>
+            <figcaption>Bit of code in The Social Network movie</figcaption>
+          </figure>
+        </section>
+        <section>
+          <h3>Movie soundtrack</h3>
+          <audio src="media/socialnetwork.mp3" controls autoplay loop></audio>
+        </section>
+      </article>
+      <hr />
+      <article>
+        <h2 id="movie2">Her</h2>
+        <aside></aside>
+        <section>
+          <h3>The trailer of movie</h3>
+          <video
+            src="media/her.mp4"
+            controls
+            poster="media/her.jpg"
+            width="750"
+          ></video>
+        </section>
+      </article>
+      <hr />
+      <article>
+        <h2 id="movie3">Deep web</h2>
+        <aside></aside>
+        <figure>
+          <img src="image copy.png" alt="Photo from deep web movie" srcset="" />
+          <figcaption>Photo from deep web movie</figcaption>
+        </figure>
+        <section>
+          <h3>What is the deep web?</h3>
+          <div class="slideshare16x9">
+            <iframe
+              src="http://www.slideshare.net/slideshow/embed_code/key/19oozb2TPXXn14"
+              width="595"
+              height="485"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </section>
+      </article>
+      <hr />
+      <aside>
+        <h2>Sources</h2>
+        <ul>
+          <li><a href="">Techtimes.com</a></li>
+          <li><a href="https://www.imdb.com/" target="_blank">imdb.com</a></li>
+        </ul>
+      </aside>
+    </main>
+    <hr />
+    <footer>
+      <address>
+        <p>
+          Author: John Smith <br />
+          (<a href="mailto:johnsmith@mailinator.com">johnsmith@mailinator.com</a
+          >)<br />
+          H-1117 Budapest, Noname street 17
+        </p>
+      </address>
+    </footer>
+  </body>
+</html>
+
+<!-- Created by Bosire Meshack  -->

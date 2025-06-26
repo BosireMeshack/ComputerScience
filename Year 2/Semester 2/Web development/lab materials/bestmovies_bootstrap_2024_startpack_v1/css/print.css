@@ -1,0 +1,55 @@
+/* The container element should be full-width, without margins, borders and shadows.*/
+div.container {
+        max-width : 100% !important;
+        margin    : 0 !important;
+        border    : none !important;
+        box-shadow: none !important;
+    }
+
+/* All descendant elements of the container element should be black*/
+div.container * {
+        color: black !important;
+    }
+/* The introduction ID element should not have a border, margin or padding*/
+div#introduction {
+        border: none !important;
+        margin: 0 !important;
+        padding:0 !important;
+    }
+
+/* Details and nav elements should be removed*/
+    details,
+    nav {
+        display: none !important;
+    }
+/* The url should appear after the links*/
+    a::after {
+        content: " ("attr(href) ")";
+    }
+
+/* Elements of the ratio class should not be displayed*/
+    .ratio {
+        display: none !important;
+    }
+
+/* The background of the pre element should be white. The font size should be smaller to fit the text*/
+pre {
+        background-color: white !important;
+        font-size       : 0.7rem !important;
+    }
+
+/*The dark table should not have a border or padding*/
+    table.table-dark * {
+        border : none !important;
+        padding: 0px !important;
+    }
+
+/* The carousel should not appear*/
+    div.carousel {
+        display: none !important;
+    }
+
+/*Images should be displayed at 50% size */
+    img.img-fluid {
+        width: 50% !important;
+    }
